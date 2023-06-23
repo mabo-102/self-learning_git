@@ -1,46 +1,68 @@
 # 基本操作
 
-```sh:状態を表示する
+### 状態を表示する
+
+```sh:
 git status
 ```
 
-```sh:ファイルを追加する
+### ファイルを追加する
+
+```sh:
 git add sample.txt
 ```
 
-```sh:コミットする
+### コミットする
+
+```sh:
 git commit -m "<コメント>#issue番号"
 ```
 
-```sh:直前のコミットを修正する
+### 直前のコミットを修正する
+
+```sh:
 git commit --amend
 ```
 
-```sh:ログを表示する
+### ログを表示する
+
+```sh:
 git log
 ```
 
-```sh:ログを詳細表示する
+### ログを詳細表示する
+
+```sh:
 git show <commit>
 ```
 
-```sh:差分を表示する
+### 差分を表示する
+
+```sh:
 git diff
 ```
 
-```sh:クローンする
+### クローンする
+
+```sh:
 git clone git@github.com:mabo-102/self-learning_git.git
 ```
 
-```sh:プッシュする
+### プッシュする
+
+```sh:
 git push
 ```
 
-```sh:フェッチする
+### フェッチする
+
+```sh:
 git fetch
 ```
 
-```sh:プルする(fetch + merge)
+### プルする(fetch + merge)
+
+```sh:
 git pull
 ```
 
