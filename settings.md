@@ -26,3 +26,11 @@ echo <filename> >> .gitignore
 ## 空ディレクトリを管理対象としたい
 
 touch .gitkeep
+
+
+## 設定ファイルで設定を変更したい
+
+.gitconfig
+
+[http]
+proxy = http://<UserName>:<Password>@<ProxyAddress>:<Port>
