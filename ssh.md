@@ -19,8 +19,9 @@ Host github.com
 
 ### id_ed25519_github(秘密鍵)
 
+```sh:
 ssh-keygen -t ed25519 -f id_ed25519_github -C "your_email@example.com"
-
+```
 
 ## GitHubへSSH鍵登録
 
